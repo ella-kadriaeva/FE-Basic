@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 70px;
+  justify-content: space-between;
+  background: #1abc9c;
+}
+.social-icon {
+  width: 40px;
+  height: 40px;
+}
+.nav-item {
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  color: #000;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.social-list {
+  display: flex;
+  gap: 20px;
+}
+.section-about {
+  display: flex;
+}
+.about-img {
+  width: 50%;
+}
+.about-box {
+  padding: 218px 62px;
+  text-align: center;
+  font-weight: 400;
+  color: #000;
+}
+.about-text {
+  width: 624px;
+  text-align: justify;
+
+  font-size: 20px;
+  text-align: justify;
+}
+.section-title {
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+/* section project */
+.project-imgs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-projects {
+  padding: 124px 64px;
+  background: #dcffeb;
+}
+.project-item {
+  width: 436px;
+  height: 378px;
+  background-image: url("../media/pic.png");
+  cursor: pointer;
+}
+.project-item:hover {
+  box-shadow: 12px 12px 5px rgba(0, 0, 255, 0.2);
+}
+footer {
+  padding: 84px 69px;
+}
+.contact-icon {
+  width: 40px;
+  height: 40px;
+}
+.contact-list {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-title {
+  color: #999;
+  margin-bottom: 18px;
+}
+.contact-text {
+  color: #000;
+}
+.contact-item {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  width: 315px;
+}
+.contact-text__red {
+  color: red;
+}
+.contact-icon {
+  margin-bottom: 18px;
+}
+.img-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+.img-title {
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+}
+.img-content {
+  position: relative;
+  top: 45%;
+  height: 50%;
+  padding: 68px 36px 2px;
+}
